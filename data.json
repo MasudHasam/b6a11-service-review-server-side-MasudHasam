@@ -1,0 +1,62 @@
+[
+    {
+        "picture": "https://media.istockphoto.com/id/1414036163/photo/bowl-of-massaman-curry.jpg?s=2048x2048&w=is&k=20&c=FNnT44UGZ9A54jRq5fLgRfn4wMGEB_-HAlu-0qICPbc=",
+        "name": "Massaman curry.",
+        "price": 13.99,
+        "ratings": "4.5",
+        "email": "gambledunlap@urbanshee.com",
+        "phone": "+1 (845) 508-2389",
+        "address": "820 Madeline Court, Mooresburg, Puerto Rico, 5994",
+        "details": "Massaman curry is a fusion of Thai- and Indian-style curries, utilizing both a red-style curry paste (Thai influence) and dry whole spices like cumin, coriander, cinnamon, and nutmeg (Indian influence). Another essential ingredient is roasted peanuts, which add an extra layer of richness and texture to the curry."
+    },
+    {
+        "picture": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+        "name": "Neapolitan pizza",
+        "price": 8.90,
+        "ratings": "5.0",
+        "email": "gambledunlap@utara.com",
+        "phone": "+1 (885) 531-2553",
+        "address": "106 Woods Place, Zortman, Mississippi, 6558",
+        "details": "Neapolitan pizza, or pizza Napoletana, is a type of pizza that originated in Naples, Italy. This style of pizza is prepared with simple and fresh ingredients: a basic dough, raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil. No fancy toppings are allowed!"
+    },
+    {
+        "picture": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Sushi",
+        "price": 1.44,
+        "ratings": "5.0",
+        "email": "gambledunlap@netbook.com",
+        "phone": "+1 (823) 493-3480",
+        "address": "528 Hamilton Walk, Allensworth, Guam, 6250",
+        "details": "Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat."
+    },
+    {
+        "picture": "https://media.istockphoto.com/id/1415516563/photo/close-up-of-cantonese-siu-mei-roast-squab.jpg?s=2048x2048&w=is&k=20&c=WJ5VT4ofQbisOEQCGzaEOKvGERxbEGKBDLUuT_2SVdg=",
+        "name": "Peking duck",
+        "price": 100,
+        "ratings": "4.0",
+        "email": "gambledunlap@fuelton.com",
+        "phone": "+1 (983) 571-2602",
+        "address": "664 Blake Court, National, New Jersey, 1919",
+        "details": "Peking duck is a dish from Beijing (Peking) that has been prepared since the Imperial era. The meat is characterized by its thin, crispy skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook."
+    },
+    {
+        "picture": "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=920&q=80",
+        "name": "Hamburger",
+        "price": 2.33,
+        "ratings": "5.0",
+        "email": "gambledunlap@zerology.com",
+        "phone": "+1 (958) 433-2183",
+        "address": "634 Dewey Place, Norris, Louisiana, 9030",
+        "details": "A hamburger is a sandwich consisting of a cooked meat patty on a bun or roll. You can order a hamburger, fries, and a shake at most fast food restaurants. Hamburgers are traditionally made with ground beef and served with onions, tomatoes, lettuce, ketchup, and other garnishes."
+    },
+    {
+        "picture": "https://media.istockphoto.com/id/820835956/photo/assam-laksa-tradition-food-in-penang-malaysia.jpg?s=2048x2048&w=is&k=20&c=cNpDD9Epzgr5YWR50shJ6-9yu3p_5eG-WD2DWFN0kyw=",
+        "name": "Penang assam laksa",
+        "price": 31.90,
+        "ratings": "4.4",
+        "email": "gambledunlap@enquility.com",
+        "phone": "+1 (919) 499-2654",
+        "address": "473 Cleveland Street, Wauhillau, Maine, 9969",
+        "details": "I first boil my fish with some water in TM bowl until cooked. Remove the fish, set aside, when cooled, remove the bones from the fish. Keep the bones.Pour our some of the fish stock in a bowl, put in all the ingredients that need to be grinded like galanghal,"
+    }
+]
