@@ -21,12 +21,14 @@ async function run() {
         const foodCollection = client.db("hungry-chef").collection("foods");
 
 
-        //get all food items.
-        app.get('/foods', async (req, res) => {
+        //red food items using condition
+        app.post('/foods', async (req, res) => {
+            const limit = req.body.limit;
+            const numLimit = parseFloat(limit)
             const query = {};
             const cursor = foodCollection.find(query);
-            const result = await cursor.limit(3).toArray();
-            console.log(result);
+            const result = await cursor.limit(numLimit).toArray();
+            // console.log(limit, numLimit);
             res.send(result)
         })
 
