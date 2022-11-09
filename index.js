@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const { query } = require('express');
 require('dotenv').config()
 const app = express();
 const port = process.env.PORT || 5000;
@@ -42,7 +43,7 @@ async function run() {
             res.send(result);
         });
 
-        //get review according to food items.
+        // get review according to food items.
         app.get('/reviews/:id', async (req, res) => {
             const id = req.params.id;
             const querry = { fid: id };
@@ -51,11 +52,32 @@ async function run() {
             res.send(result)
         })
 
+
+        // //get review according to user id.
+        app.get('/review/:id', async (req, res) => {
+            const id = req.params.id;
+            console.log(id);
+            const querry = { userMail: id };
+            const cursor = reviewsCollection.find(querry);
+            const result = await cursor.toArray();
+            res.send(result)
+        })
+
+
         //post review in server.
         app.post('/reviews', async (req, res) => {
             const review = req.body;
             const result = await reviewsCollection.insertOne(review);
             res.send(result)
+        })
+
+
+        //this api is for delete
+        app.delete('/reviewItems/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const result = await reviewsCollection.deleteOne(query)
+            res.send(result);
         })
 
     }
