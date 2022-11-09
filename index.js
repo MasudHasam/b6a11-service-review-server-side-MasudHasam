@@ -19,7 +19,7 @@ async function run() {
 
     try {
         const foodCollection = client.db("hungry-chef").collection("foods");
-
+        const reviewsCollection = client.db("hungry-chef").collection("reviews");
 
         //red food items using condition
         app.post('/foods', async (req, res) => {
@@ -40,6 +40,22 @@ async function run() {
             const cursor = foodCollection.findOne(query);
             const result = await cursor;
             res.send(result);
+        });
+
+        //get review according to food items.
+        app.get('/reviews/:id', async (req, res) => {
+            const id = req.params.id;
+            const querry = { fid: id };
+            const cursor = reviewsCollection.find(querry);
+            const result = await cursor.toArray();
+            res.send(result)
+        })
+
+        //post review in server.
+        app.post('/reviews', async (req, res) => {
+            const review = req.body;
+            const result = await reviewsCollection.insertOne(review);
+            res.send(result)
         })
 
     }
