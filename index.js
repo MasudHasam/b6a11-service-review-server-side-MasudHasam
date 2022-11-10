@@ -64,6 +64,14 @@ async function run() {
         })
 
 
+        app.get('/rvw/:id', async (req, res) => {
+            const id = req.params.id;
+            const querry = { _id: ObjectId(id) };
+            const cursor = await reviewsCollection.findOne(querry);
+            res.send(cursor)
+        })
+
+
         //post review in server.
         app.post('/reviews', async (req, res) => {
             const review = req.body;
@@ -78,7 +86,28 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const result = await reviewsCollection.deleteOne(query)
             res.send(result);
+        });
+
+
+        //update review
+        app.put('/updateReview/:id', async (req, res) => {
+            const id = req.params.id;
+            const filter = { _id: ObjectId(id) };
+            const user = req.body;
+            console.log(user);
+            const option = { upsert: true };
+            const updatedUser = {
+                $set: {
+                    name: user.name,
+                    serviceName: user.serviceName,
+                    picture: user.picture,
+                    details: user.details
+                }
+            }
+            const result = await reviewsCollection.updateOne(filter, updatedUser, option);
+            res.send(result);
         })
+
 
         // top food get api
         app.get('/topfood', async (req, res) => {
@@ -94,7 +123,7 @@ async function run() {
                 }
             });
             const count = (result.length);
-            console.log(count);
+            // console.log(count);
             // result.slice(0, 2)
             res.send({ result, count });
         })
