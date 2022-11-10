@@ -1,86 +1,26 @@
 [
     {
-        "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-        "name": "Alex",
-        "fid": "636ab9f2964295f56a1b6900",
-        "ratings": "4.5",
-        "details": "This food is delicious . I'm setisfide"
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "name": "Rodrigase",
-        "fid": "636ab9f2964295f56a1b6900",
-        "ratings": "4.3",
-        "details": "well not so bad. but yes it's teasty . thanks hungry chef"
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
-        "name": "Thomas",
-        "fid": "636ab9f2964295f56a1b6901",
-        "ratings": "4.7",
-        "details": "Greet food. it's really awsome you ca chek it out"
-    },
-    {
-        "picture": "https://plus.unsplash.com/premium_photo-1665461700741-eeda3c20f8ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80",
-        "name": "Michel",
-        "fid": "636ab9f2964295f56a1b6901",
-        "ratings": "4.8",
-        "details": "Wow it's really nice . I thought it will be modarate teasty but it's just wow"
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "name": "Justin",
-        "fid": "636ab9f2964295f56a1b6902",
-        "ratings": "4.4",
-        "details": "well it teasty but over priced"
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "name": "Robin",
-        "fid": "636ab9f2964295f56a1b6902",
+        "picture": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170302150230-som-tam.jpg",
+        "name": "Som tam, Thailand",
         "ratings": "5.0",
-        "details": "Wow I'm surprised . it's really greet . must recomended"
+        "details": "Thailand's famous fiery salad features garlic and chillies alongside string beans and peanuts."
     },
     {
-        "picture": "https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "name": "Jessy",
-        "fid": "636ab9f2964295f56a1b6903",
-        "ratings": "4.3",
-        "details": "Nice but cluld be more delicious according to loock"
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
-        "name": "Josef",
-        "fid": "636ab9f2964295f56a1b6903",
-        "ratings": "4.7",
-        "details": "Ok I like it thank seller to send me this delicious food."
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1567784177951-6fa58317e16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "name": "Jacky",
-        "fid": "636ab9f2964295f56a1b6904",
-        "ratings": "4.1",
-        "details": "I don't like it . not setisfied."
-    },
-    {
-        "picture": "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "name": "Abraham",
-        "fid": "636ab9f2964295f56a1b6904",
+        "picture": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170913134128-gettyimages-78202765.jpg",
+        "name": "Poutine, Canada",
         "ratings": "5.0",
-        "details": "wow i'm just surprised it's too much delicious"
+        "details": "This iconic Quebec dish mixes french fries, cheddar cheese and gravy to make one of Canada's iconic foods."
     },
     {
-        "picture": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "name": "LUDAK",
-        "fid": "636ab9f2964295f56a1b6905",
-        "ratings": "3.5",
-        "details": "Totally west of mony i don't like it "
+        "picture": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170913134016-gettyimages-166314908.jpg",
+        "name": "Tacos, Mexico",
+        "ratings": "5.0",
+        "details": "Tacos are a chief component of Mexican cuisine -- rolled-up tortillas stuffed with sizzling chunks of meat or vegetables, covered with guacamole and salsa."
     },
     {
-        "picture": "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "name": "Tom",
-        "fid": "636ab9f2964295f56a1b6905",
-        "ratings": "4.7",
-        "details": "yap nice food . recomended for every one ."
+        "picture": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150203151613-chinese-food-stinky-tofu.jpg",
+        "name": "Stinky tofu, Southeast Asia",
+        "ratings": "4.9",
+        "details": "This form of fermented tofu has a strong odor and a delicious taste."
     }
 ]

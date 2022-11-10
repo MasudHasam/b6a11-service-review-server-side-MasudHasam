@@ -21,6 +21,7 @@ async function run() {
     try {
         const foodCollection = client.db("hungry-chef").collection("foods");
         const reviewsCollection = client.db("hungry-chef").collection("reviews");
+        const topCollection = client.db("hungry-chef").collection("fan-favorite");
 
         //red food items using condition
         app.post('/foods', async (req, res) => {
@@ -56,7 +57,6 @@ async function run() {
         // //get review according to user id.
         app.get('/review/:id', async (req, res) => {
             const id = req.params.id;
-            console.log(id);
             const querry = { userMail: id };
             const cursor = reviewsCollection.find(querry);
             const result = await cursor.toArray();
@@ -77,6 +77,32 @@ async function run() {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
             const result = await reviewsCollection.deleteOne(query)
+            res.send(result);
+        })
+
+        // top food get api
+        app.get('/topfood', async (req, res) => {
+            const querry = {};
+            const cursor = topCollection.find(querry);
+            let result = await cursor.toArray()
+            result.reverse()
+            result.sort((a, b) => {
+                const nameA = a.index;
+                const nameB = b.index;
+                if (nameA > nameB) {
+                    return -1;
+                }
+            });
+            const count = (result.length);
+            console.log(count);
+            // result.slice(0, 2)
+            res.send({ result, count });
+        })
+
+        //top food post api
+        app.post('/topfood', async (req, res) => {
+            const items = req.body;
+            const result = await topCollection.insertOne(items);
             res.send(result);
         })
 
